@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Testing" duration-ms="34330" started-at="2016-09-27T10:28:59Z" finished-at="2016-09-27T10:29:34Z">
+    <groups>
+    </groups>
+    <test name="Regression suite" duration-ms="34330" started-at="2016-09-27T10:28:59Z" finished-at="2016-09-27T10:29:34Z">
+      <class name="pack.reportsdemo.TestCase1">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:pack.reportsdemo.TestCase1@18be83e4]" name="setUP" is-config="true" duration-ms="4703" started-at="2016-09-27T15:58:59Z" finished-at="2016-09-27T15:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="OpenAUT()[pri:0, instance:pack.reportsdemo.TestCase1@18be83e4]" name="OpenAUT" duration-ms="8792" started-at="2016-09-27T15:59:04Z" finished-at="2016-09-27T15:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pack.reportsdemo.TestCase1@18be83e4]" name="tearDown" is-config="true" duration-ms="973" started-at="2016-09-27T15:59:13Z" finished-at="2016-09-27T15:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pack.reportsdemo.TestCase1 -->
+      <class name="pack.reportsdemo.TestCase2">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:pack.reportsdemo.TestCase2@cb5822]" name="setUP" is-config="true" duration-ms="4296" started-at="2016-09-27T15:59:14Z" finished-at="2016-09-27T15:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:pack.reportsdemo.TestCase2@cb5822]" name="firstTestCase" duration-ms="14754" started-at="2016-09-27T15:59:18Z" finished-at="2016-09-27T15:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pack.reportsdemo.TestCase2@cb5822]" name="tearDown" is-config="true" duration-ms="800" started-at="2016-09-27T15:59:33Z" finished-at="2016-09-27T15:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pack.reportsdemo.TestCase2 -->
+    </test> <!-- Regression suite -->
+  </suite> <!-- Automation Testing -->
+</testng-results>

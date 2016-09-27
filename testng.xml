@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Testing" verbose="1" >
+  <test name="Regression suite" >
+    <classes>
+      <class name="pack.reportsdemo.TestCase1"/>
+      <class name="pack.reportsdemo.TestCase2"/>
+    </classes>
+ </test>
+</suite>
