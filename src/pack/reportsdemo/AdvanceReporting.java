@@ -1,5 +1,7 @@
 package pack.reportsdemo;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -21,6 +23,7 @@ public class AdvanceReporting {
 		WebDriver driver = new FirefoxDriver();
 
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 		extentTest.log(LogStatus.INFO, "Browser started");
 
